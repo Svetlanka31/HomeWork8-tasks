@@ -7,7 +7,7 @@
 // 5 2 6 7
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-const int ROWS = 4;
+const int ROWS = 3;
 const int COLUMNS =4;
 int [,]FillMatrix(int rows, int columns, int leftRange = 0, int rigthRange = 10)
 {
