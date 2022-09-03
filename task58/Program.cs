@@ -7,11 +7,12 @@
 // 15 18
 
 
-int InputNumber(string output)
+int InputNumber(string input)
 {
     
-     Console.Write(output);
-   return int.Parse(Console.ReadLine());
+     Console.Write(input);
+     int output = Convert.ToInt32(Console.ReadLine());
+   return output;
  }
 
 void FillMatrixRandom(int[,] matrix)
